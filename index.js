@@ -1,4 +1,5 @@
 
+
 function kotak(panjang) {
     let cetak = '';
     for (let i = 0; i < panjang; i++) {
@@ -9,6 +10,7 @@ function kotak(panjang) {
     }
     return cetak;
 }
+console.log('Gambar Kotak :');
 console.log(kotak(5));
 
 function segitiga(baris){
@@ -21,6 +23,7 @@ function segitiga(baris){
     }
     return cetak;
 }
+console.log('Segitiga :');
 console.log(segitiga(5))
 
 function segitigaTerbalik(baris) {
@@ -32,7 +35,9 @@ function segitigaTerbalik(baris) {
         cetak += '\n';
     }
     return cetak;
-}console.log(segitigaTerbalik(5))
+}
+console.log('Gambar Segitiga Terbalik :');
+console.log(segitigaTerbalik(5))
 
 
 function selangSeling(baris,kolom) {
@@ -47,7 +52,9 @@ function selangSeling(baris,kolom) {
         }cetak += '\n';
     }
     return cetak;
-}console.log(selangSeling(5,5));
+}
+console.log('Gambar Selang Seling :');
+console.log(selangSeling(5,5));
 
 function kotakPola(baris,kolom) {
     let cetak ='';
@@ -61,4 +68,6 @@ function kotakPola(baris,kolom) {
         }cetak += '\n';
     }
     return cetak;
-}console.log(kotakPola(5,5));
+}
+console.log('Gambar KotakPola :');
+console.log(kotakPola(5,5));
